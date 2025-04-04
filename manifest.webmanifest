@@ -1,6 +1,6 @@
 {
-  "name": "DevTools",
-  "short_name": "DevTools",
+  "name": "JSON Formatter",
+  "short_name": "JSON Formatter",
   "id": "./",
   "start_url": "./",
   "display": "standalone",
