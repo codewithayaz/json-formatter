@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "E6yL6pyE",
+  "version": "LBJwjwbt",
   "assets": [
     {
       "hash": "sha256-hLoI7vzdrdsiE1m+bVJBpsvAjftijr1G1RYIzgf6kBY=",
@@ -14,8 +14,8 @@ self.assetsManifest = {
       "url": "_content/MudBlazor/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-B/R4wuLU0X3StjPr61GO8OLEbS6+TgYcBJPdbzCglEM=",
-      "url": "_framework/DevTools.5d2s18du97.wasm"
+      "hash": "sha256-RQg0NVk6HoMVRvuPICenRtNEea/eOYK3tTk18RQ1Skw=",
+      "url": "_framework/DevTools.1p0juosywb.wasm"
     },
     {
       "hash": "sha256-ZI1fHPu9aVcjw7xDdujy0O2ZEJD78S/caZFPs3oOABs=",
@@ -182,7 +182,7 @@ self.assetsManifest = {
       "url": "_framework/System.icunsnzrqy.wasm"
     },
     {
-      "hash": "sha256-IAuAiP/G43k4h1Q8eoMNaRWGdRlxLiT2PCTVSyr1Qxk=",
+      "hash": "sha256-mVQ781x2drn+ZxNSqXU7bRL7zi3Mj7A8Yp0RrdFXQX0=",
       "url": "_framework/blazor.boot.json"
     },
     {
