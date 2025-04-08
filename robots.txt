@@ -1,4 +1,3 @@
-﻿   User-agent: *
-   Allow: /
-   Sitemap: https://dev-helper.com/sitemap.xml
-   
+﻿User-agent: *
+Allow: /
+Sitemap: https://dev-helper.com/sitemap.xml   
