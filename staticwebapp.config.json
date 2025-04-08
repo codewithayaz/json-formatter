@@ -2,5 +2,11 @@
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": [ "/_framework/*", "/css/*", "*.{js,map,css,png,ico,svg}" ]
-  }
+  },
+  "routes": [
+    {
+      "route": "/sitemap.xml",
+      "rewrite": "/sitemap.xml"
+    }
+  ]
 }
