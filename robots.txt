@@ -1,4 +1,7 @@
-User-agent: *
-Allow: /
-Sitemap: https://dev-helper.com/sitemap.xml
-   
+    User-agent: *
+    Allow: /
+    Disallow: /_framework/
+    Disallow: /css/
+    Disallow: /js/
+    Sitemap: https://dev-helper.com/sitemap.xml
+    

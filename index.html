@@ -4,28 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JSON Formatter - Free Online Tool | Dev Helper</title>
-    <meta name="description" content="Format and beautify your JSON data online with our free, fast, and user-friendly formatter." />
-    <meta name="keywords" content="JSON formatter, JSON beautifier, online JSON tool, format JSON, free JSON tool, JSON validator, JSON viewer, JSON minifier, pretty print JSON, dev helper, developer tools" />
-    <meta name="author" content="Ayaz Ali" />
     <meta name="google-adsense-account" content="ca-pub-3993095518323987" />
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://dev-helper.com/" />
-
-    <!-- Open Graph (Facebook & others) -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://dev-helper.com/" />
-    <meta property="og:title" content="JSON Formatter - Free Online Tool | Dev Helper" />
-    <meta property="og:description" content="Format and beautify your JSON data online with our free, fast, and user-friendly formatter. No ads, no signups." />
-    <meta property="og:image" content="https://dev-helper.com/icon-192.png" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://dev-helper.com/" />
-    <meta name="twitter:title" content="JSON Formatter - Free Online Tool | Dev Helper" />
-    <meta name="twitter:description" content="Free online JSON formatter to beautify, minify and validate your JSON data instantly." />
-    <meta name="twitter:image" content="https://dev-helper.com/icon-192.png" />
 
     <!-- Favicon & Manifest -->
     <link rel="icon" type="image/png" href="/favicon.png" />
@@ -34,22 +13,22 @@
     <link rel="manifest" href="/manifest.webmanifest" />
 
     <!-- Fonts and Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/app.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="preload" as="style" />
+    <link href="/css/app.css" rel="stylesheet"/>
     <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
     <link href="DevTools.styles.css" rel="stylesheet" />
 
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9JQVZ48K6K"></script>
-    <script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9JQVZ48K6K" rel="preload" as="script"></script>
+    <script rel="preload" as="script">
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-9JQVZ48K6K');
     </script>
 
-    <!-- microsoft clarity -->
-    <script type="text/javascript">
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript" rel="preload" as="script">
         (function (c, l, a, r, i, t, y) {
             c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
             t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
@@ -58,34 +37,11 @@
     </script>
 
     <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3993095518323987" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3993095518323987" crossorigin="anonymous" rel="preload" as="script"></script>
 
-    <!-- JSON-LD Structured Data for SEO -->
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebApplication",
-          "name": "JSON Formatter - Dev Helper",
-          "url": "https://dev-helper.com/",
-          "applicationCategory": "DeveloperApplication",
-          "operatingSystem": "All",
-          "offers": {
-            "@type": "Offer",
-            "price": "0.00",
-            "priceCurrency": "USD"
-          },
-          "description": "Free online JSON formatter tool by Dev Helper. Format, beautify, and minify your JSON instantly. No ads, no signup required.",
-          "creator": {
-            "@type": "Person",
-            "name": "CodeWithAyaz"
-          },
-          "inLanguage": "en",
-          "potentialAction": {
-            "@type": "Action",
-            "name": "Format JSON"
-          }
-        }
-    </script>
+    <!-- HeadOutlet -->
+    <component type="typeof(HeadOutlet)" render-mode="Static" />
+
 </head>
 
 <body>
@@ -103,9 +59,11 @@
         <span class="dismiss">🗙</span>
     </div>
     <script src="js/app.js"></script>
-    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
-    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/MudBlazor/MudBlazor.min.js" rel="preload" as="script"></script>
+    <script src="_framework/blazor.webassembly.js" rel="preload" as="script"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script src="js/seo-helper.js" rel="preload" as="script"></script>
+
 </body>
 
 </html>
